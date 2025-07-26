@@ -9,6 +9,14 @@
     justify-content: space-around;
     padding: 24px;
     box-shadow: 0px 3px 10px var(--colorPrimary);
+
+}
+
+@media (max-width:724px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .text {

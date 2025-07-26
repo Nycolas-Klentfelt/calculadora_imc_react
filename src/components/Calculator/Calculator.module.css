@@ -4,6 +4,13 @@
     justify-content: center;
 }
 
+@media (max-width:724px) {
+    .calculator{
+        padding: 150px 50px 50px 50px;
+        text-align: center;
+    }
+}
+
 .list{
     display: flex;
     flex-direction: column;
