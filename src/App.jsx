@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import Calculator from './components/calculator'
+import Calculator from './components/Calculator'
 import AboutIMC from './components/AboutIMC'
 import Table from './components/Table'
 import Footer from './components/Footer'
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
