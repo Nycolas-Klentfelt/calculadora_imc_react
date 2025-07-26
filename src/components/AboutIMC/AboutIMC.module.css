@@ -1,0 +1,18 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.title{
+    color: var(--colorPrimary);
+    font-size: 32px;
+}
+
+.text{
+    color: var(--colorPrimary);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}

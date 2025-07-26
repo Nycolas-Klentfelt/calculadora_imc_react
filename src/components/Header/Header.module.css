@@ -1,0 +1,31 @@
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: var(--colorPrimary);
+    color: var(--colorSecundary);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    box-shadow: 0px 3px 10px var(--colorPrimary);
+}
+
+.text {
+    color: var(--colorSecundary);
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    padding: 18px;
+    gap: 24px;
+    list-style: none;
+}
+
+.item{
+    color: var(--colorSecundary);
+    cursor: pointer;
+    text-decoration: none;
+}
